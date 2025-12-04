@@ -5,7 +5,6 @@
     <title>Lời Chúc Mừng Sinh Nhật</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        /* CSS Cơ Bản cho Video */
         body {
             margin: 0;
             padding: 0;
@@ -15,9 +14,8 @@
             align-items: center;
             min-height: 100vh;
             overflow: hidden;
-            /* Thiết lập chuyển tiếp cho hiệu ứng mờ dần */
             transition: opacity 1s ease-in-out; 
-            opacity: 1; /* Mặc định là hiển thị */
+            opacity: 1;
         }
         #myVideo {
             width: 100%;
@@ -25,9 +23,8 @@
             object-fit: cover;
         }
 
-        /* Lớp CSS cho hiệu ứng Mờ Dần */
         .fade-out {
-            opacity: 0 !important; /* Quan trọng: Ghi đè opacity 1 */
+            opacity: 0 !important;
         }
     </style>
 </head>
@@ -42,25 +39,18 @@
         const body = document.body;
         
         function startTransition() {
-            // 1. Kích hoạt hiệu ứng mờ dần (fade-out)
             body.classList.add('fade-out');
-            
-            // 2. Chờ cho hiệu ứng CSS (1 giây) kết thúc
             setTimeout(() => {
-                // 3. Thực hiện chuyển hướng sau khi màn hình đã mờ hoàn toàn
                 window.location.href = 'hbpd.html'; 
-            }, 1000); // 1000ms = 1 giây, phải khớp với transition trong CSS
+            }, 1000);
         }
-        
-        // Lắng nghe sự kiện khi video kết thúc
+
         video.addEventListener('ended', startTransition);
 
-        // Xử lý Autoplay (quan trọng để đảm bảo video chạy)
         video.play().catch(error => {
             console.error("Video autoplay bị chặn. Vui lòng nhấn để xem:", error);
-            // Nếu bị chặn, video sẽ chờ người dùng tương tác. 
-            // Sau khi người dùng nhấn Play, sự kiện 'ended' vẫn sẽ hoạt động bình thường.
         });
     </script>
 </body>
+
 </html>
