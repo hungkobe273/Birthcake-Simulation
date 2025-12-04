@@ -205,7 +205,7 @@ document.addEventListener("DOMContentLoaded", function () {
     popup.innerHTML = `
       <button class="gift-popup-close">×</button>
       <div class="gift-avatar">
-        <img src="${imageSrc}" alt="Châu - Ảnh kỷ niệm" onerror="handleImageError(this)" />
+        <img src="${imageSrc}" alt="#### - Ảnh kỷ niệm" onerror="handleImageError(this)" />
       </div>
       <div class="gift-message-content">${message}</div>
       <div style="margin-top: 15px; font-size: 16px; opacity: 0.8;">
