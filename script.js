@@ -22,33 +22,33 @@ document.addEventListener("DOMContentLoaded", function () {
   let availableGiftIndexes = [];
 
   const giftMessages = [
-    "Chúc mừng sinh nhật tuổi 20! 🎂 Cậu đã chính thức bước vào độ tuổi đẹp nhất của cuộc đời!",
-    "Tuổi 20 - tuổi của những ước mơ và hoài bão! 🌟 Chúc Châu luôn tỏa sáng!",
+    "Chúc mừng sinh nhật tuổi ##! 🎂 Cậu đã chính thức bước vào độ tuổi đẹp nhất của cuộc đời!",
+    "Tuổi 20 - tuổi của những ước mơ và hoài bão! 🌟 Chúc #### luôn tỏa sáng!",
     "20 mùa hoa nở, cậu đã trưởng thành thật xinh đẹp! 💐 Chúc mừng sinh nhật!",
     "Tuổi 20 - độ tuổi đẹp nhất để yêu và được yêu! ❤️ Chúc cậu hạnh phúc!",
-    "Chúc Châu tuổi 20 gặp nhiều may mắn và thành công! 🍀",
+    "Chúc #### tuổi 20 gặp nhiều may mắn và thành công! 🍀",
     "20 tuổi - hành trình mới bắt đầu! 🚀 Chúc cậu bay thật cao và xa!",
-    "Tuổi 20 rực rỡ, tương lai tươi sáng! ✨ Chúc mừng sinh nhật Châu!",
+    "Tuổi 20 rực rỡ, tương lai tươi sáng! ✨ Chúc mừng sinh nhật ####!",
     "Chúc cô gái 20 tuổi luôn xinh đẹp, tự tin và mạnh mẽ! 💪",
     "20 năm - một chặng đường đáng nhớ! 📖 Chúc cậu viết tiếp những trang mới thật hay!",
-    "Tuổi 20 - tuổi của sự nhiệt huyết! 🔥 Chúc Châu luôn giữ ngọn lửa đam mê!",
+    "Tuổi 20 - tuổi của sự nhiệt huyết! 🔥 Chúc #### luôn giữ ngọn lửa đam mê!",
     "Chúc mừng sinh nhật tuổi 20! 🎉 Mong cậu luôn vui vẻ và hạnh phúc!",
     "20 tuổi - độ tuổi hoàn hảo để khám phá thế giới! 🌍 Chúc cậu có nhiều trải nghiệm tuyệt vời!",
-    "Chúc Châu tuổi 20 gặt hái nhiều thành công trong học tập và công việc! 📚",
+    "Chúc #### tuổi 20 gặt hái nhiều thành công trong học tập và công việc! 📚",
     "20 mùa xuân qua, cậu ngày càng tỏa sáng! 🌸 Chúc mừng sinh nhật!",
     "Tuổi 20 - tuổi của sự tự do và trách nhiệm! 🗝️ Chúc cậu luôn cân bằng tốt!",
     "Chúc mừng cô gái 20 tuổi! 🥳 Mong cậu luôn giữ được nụ cười tươi!",
     "20 năm - quãng thời gian đáng trân trọng! 💖 Chúc cậu có thật nhiều kỷ niệm đẹp!",
-    "Tuổi 20 rực rỡ, tâm hồn tươi trẻ! 🎈 Chúc Châu luôn tràn đầy năng lượng!",
+    "Tuổi 20 rực rỡ, tâm hồn tươi trẻ! 🎈 Chúc #### luôn tràn đầy năng lượng!",
     "Chúc cậu tuổi 20 có thật nhiều người bạn tốt và những mối quan hệ ý nghĩa! 👫",
-    "20 tuổi - bắt đầu một chương mới thật tuyệt vời! 📖 Chúc Châu viết nên câu chuyện của riêng mình!"
+    "20 tuổi - bắt đầu một chương mới thật tuyệt vời! 📖 Chúc #### viết nên câu chuyện của riêng mình!"
   ];
 
   const giftImages = [
-    "chau1.jpg", "chau2.jpg", "chau3.jpg", "chau4.jpg", "chau5.jpg",
-    "chau6.jpg", "chau7.jpg", "chau8.jpg", "chau9.jpg", "chau10.jpg",
-    "chau11.jpg", "chau12.jpg", "chau13.jpg", "chau14.jpg", "chau15.jpg",
-    "chau16.jpg", "chau17.jpg", "chau18.jpg", "chau19.jpg", "chau20.jpg"
+    "####1.jpg", "####2.jpg", "####3.jpg", "####4.jpg", "####5.jpg",
+    "####6.jpg", "####7.jpg", "####8.jpg", "####9.jpg", "####10.jpg",
+    "####11.jpg", "####12.jpg", "####13.jpg", "####14.jpg", "####15.jpg",
+    "####16.jpg", "####17.jpg", "####18.jpg", "####19.jpg", "####20.jpg"
   ];
 
   function initializeGiftIndexes() {
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const shorts = [
         "Hey, quà đây! 🎁",
         "Mở thử xem ✨",
-        "Cho Châu nè 💝",
+        "Cho #### nè 💝",
         "Tuổi 20 vui nhé 🎉",
         "Click đi nào 🎀",
         "Bất ngờ nè 🔮",
